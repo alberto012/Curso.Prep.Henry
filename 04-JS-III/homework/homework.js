@@ -162,8 +162,8 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  for (var i =0 ; i < arreglo.length - 1; i++) {
-    if(arreglo[i] !== arreglo[i+1]){
+  for (var i =0 ; i < Array.length - 1; i++) {
+    if(Array[i] !== Array[i+1]){
       return false
     }
   }
@@ -176,28 +176,28 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var Nuevo = []
+  var arraydos = []
   for (let i=0; i<array.length; i++){
     if (array [i]=== "enero"|| array [i]=== "marzo"|| array[i] === "noviembre"){
-       Nuevo.push(array[i]);
+       arraydos.push(array[i]);
     }
     else if (Nuevo < 3 ){
       return "no se encontraron los meses pedidos";}
   
-    return Nuevo
+    return arraydos
 
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var MayorACien=[];
+  var arraytres=[];
   for (let i = 0; i < array.length ; i++ ){
     if (array[i]> 100){
-      MayorACien.push(array[i]);
+      arraytres.push(array[i]);
     }
   }
-return MayorACien
+return arraytres
 
 
 function breakStatement(numero) {
@@ -229,7 +229,7 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var buucle= []
-  var suma = numerox
+  var suma = numeross
   for (var i =0; i> 10; i++)
   if (i=== 5 ) continue;
   else {

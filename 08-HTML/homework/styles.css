@@ -1,0 +1,22 @@
+head{
+    background-color: red;
+}
+body{
+    background-color: salmon;
+}
+h1{
+    color: black;
+    font-size: 10px;
+}
+span{
+    font-size: 18px;
+    margin:50px;
+    border-radius: 0.6cm;
+    border-style: dotted;
+}
+div {
+    height: 600px; 
+    width:  500px; 
+    background-color: violet;
+    fill: 50px;
+}

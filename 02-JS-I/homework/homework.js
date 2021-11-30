@@ -96,14 +96,13 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var menor = (num < 90)
-  {
+  if (num>90){ 
+    return false
+  }
+  else {
     return true
   }
   
-}
-if (num > 90){
-  return false
-}
 
 
 function mayorQueCincuenta(num) {
@@ -111,18 +110,14 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var mayor= (num < 50)
-  {
+  if (num>50){
     return true
   }
-  
-}
-if (num > 50 )
-{
-  return false
-}
-else if (num <= 50 ){
-  return false
-}
+  else
+  {
+    return false
+  }
+
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:

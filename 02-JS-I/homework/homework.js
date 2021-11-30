@@ -68,7 +68,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var sonIguales= x == y
-  return sonIguales
+  
   if (x > y )
   {
     return false
@@ -77,6 +77,7 @@ function sonIguales(x, y) {
   {
     return false
   }
+  return sonIguales
 }
 
 function tienenMismaLongitud(str1, str2) {

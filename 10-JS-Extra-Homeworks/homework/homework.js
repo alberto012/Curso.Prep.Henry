@@ -10,13 +10,7 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
-objeto({
-rojo:7,
-verde:3,
-azul: 5
-})
-var resutado=  Object.keys(objeto).map(function(matriz){
-  return number(matriz), objet[matriz]
+return objeto = (object.entries(objeto));
 }
 
 
@@ -26,13 +20,33 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
-let 
-
+var obj={};
+for (let i= 0; i < string.length; i++){
+  if (object.keys (obj)+ includes(string [i]))
+  {
+    obj [string[i]] = obj[string[i]] + 1
+    continue
+  }
+  obj [string[i]] = 1
+}
+return obj; 
 function capToFront(s) {
   //Realiza una función que reciba como parámetro un string y mueva todas las letras mayúsculas
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  var mayusculas= ""
+  var minusculas="";
+  for(i= 0; i< s.length; i++)
+  {
+    if (s[i] === s[i] .toUpperCase()){
+      mayusculas= mayusculas + s[i];
+    }
+    else 
+    minusculas=minusculas+ s[i];
+  }
+  return (mayusculas + minusculas)
+  ;
 }
 
 
@@ -42,6 +56,8 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  var frase= "The Henry Challenge is close!";
+ return str.split(frase).reverse().join("");
 } 
 
 
@@ -50,8 +66,21 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+var numeros= numero.length
+if (numeros== 0){
+  return "No es Capicua"
 }
-
+for  (i=0; i< numeros/2; i++){
+  if (numero [i]!= numero [numeros-1-i]){
+return "No es Capicua"
+  }
+  else (undefinided)
+{
+    return "No es Capicua"
+}
+  
+  return "Es capicua"
+};
 
 function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
